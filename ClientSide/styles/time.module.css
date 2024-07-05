@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    /* height: 60vh; */
+}
+.selectCont{
+    font-size: 16px;
+}
+.container p{
+    font-size: 20px;
+}
+.details{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px rgb(192, 192, 192);
+    border-radius: 10px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border:none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

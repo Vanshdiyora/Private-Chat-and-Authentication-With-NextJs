@@ -1,0 +1,41 @@
+.container{
+    height: 60vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 50%;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.formS{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+}
+
+.inputText{
+    margin: 10px 0;
+}
+.inputText input{
+    padding: 7px;
+
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,50 @@
+.container{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+.contImage{
+    width: 15.12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 35px;
+    border-right: 1px solid white;
+}
+.contImage img{
+    max-width: 120px;
+}
+.headersub{
+        /* width: 76.88%; */
+    padding-right: 16%;
+}
+.menu{
+
+    color: white;
+}
+.menu ul{
+    display: flex;
+    padding: 0;
+
+}
+.menu ul a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.menu ul li{
+    font-size: 20px;
+    padding-right: 17px;
+    list-style: none;
+    border-right: 1px solid #777373;
+    position: relative;
+}
+.except{
+    border-right: 1px solid #000;
+}
