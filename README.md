@@ -73,6 +73,11 @@ WEBRTC_CONFIG={"iceServers":[{"urls":"stun:stun.l.google.com:19302"}]}
 ### Chat Functionality
 Users can send and receive real-time private messages. The chat feature allows for seamless communication between users, with instant message delivery and reception.
 
+## Contact
+
+For any questions or feedback, please reach out to vanshadiyora@gmail.com.
+
+
 ### Video Calls
 Users can initiate high-definition video calls with peers. The video call feature supports peer-to-peer connections, ensuring clear and smooth video communication.
 
