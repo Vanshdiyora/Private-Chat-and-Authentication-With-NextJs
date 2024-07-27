@@ -61,24 +61,13 @@ Make sure to configure the following environment variables:
 - `NEXT_PUBLIC_SOCKET_SERVER_URL`: URL of the Socket.io server.
 - `WEBRTC_CONFIG`: WebRTC configuration settings for peer-to-peer connections.
 
-## Usage
-
-### Chat Functionality
-Users can send and receive real-time private messages. The chat feature allows for seamless communication between users, with instant message delivery and reception.
-
-### Video Calls
-Users can initiate high-definition video calls with peers. The video call feature supports peer-to-peer connections, ensuring clear and smooth video communication.
-
-### Responsive UI
-The application adapts to different screen sizes for optimal usability. Whether on a desktop or mobile device, the UI adjusts to provide a consistent and user-friendly experience.
-
-
 Create a `.env.local` file in the root directory and add the required environment variables:
 
 ```env
 NEXT_PUBLIC_SOCKET_SERVER_URL=http://localhost:3001
 WEBRTC_CONFIG={"iceServers":[{"urls":"stun:stun.l.google.com:19302"}]}
 ```
+
 ## Usage
 
 ### Chat Functionality
@@ -89,4 +78,3 @@ Users can initiate high-definition video calls with peers. The video call featur
 
 ### Responsive UI
 The application adapts to different screen sizes for optimal usability. Whether on a desktop or mobile device, the UI adjusts to provide a consistent and user-friendly experience.
-
