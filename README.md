@@ -78,7 +78,7 @@ Create a `.env.local` file in the root directory and add the required environmen
 ```env
 NEXT_PUBLIC_SOCKET_SERVER_URL=http://localhost:3001
 WEBRTC_CONFIG={"iceServers":[{"urls":"stun:stun.l.google.com:19302"}]}
-
+```
 ## Usage
 
 ### Chat Functionality
